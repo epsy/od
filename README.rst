@@ -1,9 +1,16 @@
-
 od
 ==
 
-The ``od`` package adds a shorthand syntax to create `OrderedDict
-<https://docs.python.org/3/library/collections.html#collections.OrderedDict>`_s::
+.. image:: https://travis-ci.org/epsy/od.svg?branch=master
+   :target: https://travis-ci.org/epsy/od
+
+.. image:: https://coveralls.io/repos/github/epsy/od/badge.svg?branch=master
+   :target: https://coveralls.io/github/epsy/od?branch=master
+
+
+The ``od`` package adds a shorthand syntax to create instances of `OrderedDict
+<https://docs.python.org/3/library/collections.html#collections.OrderedDict>`_
+::
 
     >>> import od
     >>>
