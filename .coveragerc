@@ -1,0 +1,14 @@
+[run]
+branch = True
+
+[report]
+exclude_lines =
+    pragma: no cover
+
+    raise AssertionError
+    raise NotImplementedError
+    if sys.version_info
+
+include =
+    od.py
+    test_od.py
