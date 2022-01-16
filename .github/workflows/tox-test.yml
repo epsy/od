@@ -28,8 +28,6 @@ jobs:
         python-version:
           - '2.7'
           - 'pypy2'
-          - '3.3'
-          - '3.4'
           - '3.5'
           - 'pypy3'
           - '3.6'
