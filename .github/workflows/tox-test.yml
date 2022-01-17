@@ -58,7 +58,7 @@ jobs:
 
       - name: 'Run coverage'
         if: ${{ matrix.task == 'coverage' }}
-        run: tox -e cover
+        run: tox -e cover-all
       - name: 'Report coverage'
         if: ${{ matrix.task == 'coverage' }}
         env:
