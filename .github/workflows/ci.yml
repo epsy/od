@@ -21,11 +21,11 @@ jobs:
     with:
       package-folder: od
       python-versions: |
-        ${{ toJSON(
-        - '2.7'
-        - 'pypy2'
-        - '3.5'
-        - 'pypy3'
-        - '3.6'
-        - '3.7'
-        )}}
+        [
+          '2.7',
+          'pypy2',
+          '3.5',
+          'pypy3',
+          '3.6',
+          '3.7'
+        ]
