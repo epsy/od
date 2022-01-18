@@ -20,10 +20,12 @@ jobs:
     uses: epsy/python-workflows/.github/workflows/python-ci.yaml@main
     with:
       package-folder: od
-      python-versions:
-      - '2.7'
-      - 'pypy2'
-      - '3.5'
-      - 'pypy3'
-      - '3.6'
-      - '3.7'
+      python-versions: |
+        ${{ toJSON(
+        - '2.7'
+        - 'pypy2'
+        - '3.5'
+        - 'pypy3'
+        - '3.6'
+        - '3.7'
+        )}}
