@@ -19,7 +19,7 @@ jobs:
   python-ci:
     uses: epsy/python-workflows/.github/workflows/python-ci.yaml@ykaiser/support-od
     with:
-      package-folder: od
+      package-folder: od.py test_od.py
       python-versions: |
         [
           '2.7',
