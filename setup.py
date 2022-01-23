@@ -11,6 +11,9 @@ setup(
     author='Yann Kaiser',
     author_email='kaiser.yann@gmail.com',
     py_modules=('od', 'test_od'),
+    extras_require={
+        'test': ['unittest2', 'repeated_test'],
+    },
     tests_require=['unittest2', 'repeated_test'],
     test_suite='unittest2.collector',
     keywords=[
