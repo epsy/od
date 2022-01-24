@@ -29,3 +29,4 @@ jobs:
           '3.6',
           '3.7'
         ]
+      python-test-args: -m unittest2
