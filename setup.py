@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='od',
-    version='1.0',
+    version='2.0.0',
     description='Shorthand syntax for building OrderedDicts',
     license='MIT',
     url='https://github.com/epsy/od',
