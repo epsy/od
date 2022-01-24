@@ -1,8 +1,8 @@
 od
 ==
 
-.. image:: https://travis-ci.org/epsy/od.svg?branch=master
-   :target: https://travis-ci.org/epsy/od
+.. image:: https://github.com/epsy/od/actions/workflows/ci.yml/badge.svg?branch=master
+   :target: https://github.com/epsy/od/actions/workflows/ci.yml
 
 .. image:: https://coveralls.io/repos/github/epsy/od/badge.svg?branch=master
    :target: https://coveralls.io/github/epsy/od?branch=master

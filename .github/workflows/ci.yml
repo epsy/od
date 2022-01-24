@@ -1,0 +1,32 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - 'master'
+    tags:
+      - '*'
+  pull_request:
+    types:
+      - 'opened'
+      - 'synchronize'
+  workflow_dispatch:
+  schedule:
+    # Schedule every Saturday at 00:30 UTC
+    - cron: '30 0 * * 6'
+
+jobs:
+  python-ci:
+    uses: epsy/python-workflows/.github/workflows/python-ci.yaml@main
+    with:
+      package-folder: od.py test_od.py
+      python-versions: |
+        [
+          '2.7',
+          'pypy2',
+          '3.5',
+          'pypy3',
+          '3.6',
+          '3.7'
+        ]
+      python-test-args: -m unittest2
