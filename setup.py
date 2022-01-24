@@ -1,11 +1,19 @@
 #!/usr/bin/env python
 
+import pathlib
 from setuptools import setup
+
+here = pathlib.Path(__file__).parent.resolve()
+
+long_description = (here / "README.rst").read_text(encoding='utf-8')
+
 
 setup(
     name='od',
-    version='2.0.0',
+    version='2.0.1',
     description='Shorthand syntax for building OrderedDicts',
+    long_description=long_description,
+    long_description_content_type='text/x-rst',
     license='MIT',
     url='https://github.com/epsy/od',
     author='Yann Kaiser',
