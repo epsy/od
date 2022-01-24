@@ -1,4 +1,4 @@
-# od -- Copyright (c) 2016 Yann Kaiser. See LICENSE.txt
+# od -- Copyright (C) 2016-2022 Yann Kaiser. See LICENSE.txt
 
 import sys
 from collections import OrderedDict
