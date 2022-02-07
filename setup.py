@@ -10,7 +10,7 @@ long_description = (here / "README.rst").read_text(encoding='utf-8')
 
 setup(
     name='od',
-    version='2.0.1',
+    version='2.0.2',
     description='Shorthand syntax for building OrderedDicts',
     long_description=long_description,
     long_description_content_type='text/x-rst',
@@ -19,6 +19,7 @@ setup(
     author='Yann Kaiser',
     author_email='kaiser.yann@gmail.com',
     py_modules=('od', 'test_od'),
+    python_requires=">=3.5",
     extras_require={
         'test': ['repeated_test'],
     },
